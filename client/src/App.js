@@ -31,6 +31,8 @@ const App = () => (
     )
 
     const StyledContainer = styled.div`
+    text-align: center;
+    height: relative;
     margin-left: 25px;
     background: linear-gradient(to bottom right, rgb(62, 129, 131), rgb(167, 237, 255));
     border-style: inset;

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Header, Card, } from "semantic-ui-react";
+import { Header, Card, Container, } from "semantic-ui-react";
 import axios from 'axios'
 
 import DepartmentForm from './DepartmentForm'
@@ -46,9 +46,11 @@ class Departments extends React.Component {
       <Header as="h1">Departments</Header>
       <DepartmentForm />
 
+      <Container style={{ marginBottom: "25px"}}>
         <Card.Group>
           { this.showDept()}
         </Card.Group>
+      </Container>
 
 
 
